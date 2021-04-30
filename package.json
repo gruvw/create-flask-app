@@ -1,6 +1,6 @@
 {
   "name": "generator-new-flask-app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Flask application scaffolding tool",
   "homepage": "https://github.com/gruvw/generator-new-flask-app",
   "author": {
@@ -80,6 +80,5 @@
     "pretest": "eslint .",
     "test": "jest"
   },
-  "repository": "gruvw/generator-new-flask-app",
-  "private": true
+  "repository": "gruvw/generator-new-flask-app"
 }
