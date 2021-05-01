@@ -1,5 +1,5 @@
 from flask import render_template
-from app import app
+from <%= appName %> import app
 
 template_path = {
     "home": "index.html"

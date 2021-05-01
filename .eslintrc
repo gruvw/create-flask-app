@@ -3,6 +3,10 @@
         "capitalized-comments": "off"
     },
     "env": {
-        "es6": true
+        "node": true,
+        "es7": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 8
     }
 }

@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -5,4 +9,15 @@ main {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: #363C49;
+}
+
+h1, h5 {
+    color: #d7d7d8;<% if (! options.includes('bootstrap')) { %>
+    font-family: Verdana, Geneva, Tahoma, sans-serif;<% } %>
+    font-weight: normal !important;
+}
+
+a {
+    color: #7aceec;
 }
